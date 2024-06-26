@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: card-order
+  profiles:
+    include:
+      - server
+      - db
