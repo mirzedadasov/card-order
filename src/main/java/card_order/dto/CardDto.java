@@ -6,12 +6,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
 public class CardDto {
-    private  Long id;
+    private Long id;
     private String cardName;
     private String cardType;
     private String cardNumber;
